@@ -1,0 +1,35 @@
+<Qucs Schematic 0.0.19>
+<Properties>
+  <View=-49,14,2236,1092,0.747505,0,0>
+  <Grid=10,10,0>
+  <DataSet=Low batt indicator.dat>
+  <DataDisplay=Low batt indicator.sch>
+  <OpenDisplay=1>
+  <Script=Low batt indicator.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Tab 850 1007 328 967 3 #c0c0c0 1 00 1 0 1 1 1 0 1 1 1 0 1 61 315 0 225 "" "" "">
+	<"Battery.Vt" #0000ff 0 3 1 0 0>
+	<"Out.Vt" #0000ff 0 3 1 0 0>
+  </Tab>
+  <Rect 84 786 713 752 3 #c0c0c0 1 00 1 0 0.1 1.2 1 -18 2 18 1 -1 0.2 1 315 0 225 "" "" "">
+	<"Battery.Vt" #0000ff 0 3 0 0 0>
+	<"Out.Vt" #ff0000 0 3 0 0 0>
+	<"Inverting.Vt" #1fff14 0 3 0 2 0>
+	<"NonInverting.Vt" #f55eff 0 3 0 2 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>
