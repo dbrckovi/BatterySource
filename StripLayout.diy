@@ -167,8 +167,8 @@
       <alpha>127</alpha>
       <points>
         <point x="3.2" y="3.8"/>
-        <point x="3.2" y="3.3"/>
-        <point x="3.2" y="3.55"/>
+        <point x="3.2" y="3.4"/>
+        <point x="3.2" y="3.6"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -379,9 +379,9 @@
       <name>J9</name>
       <alpha>127</alpha>
       <points>
-        <point x="5.5" y="3.7"/>
-        <point x="5.5" y="3.2"/>
-        <point x="5.5" y="3.45"/>
+        <point x="5.6" y="3.7"/>
+        <point x="5.6" y="3.2"/>
+        <point x="5.6" y="3.45"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -403,7 +403,7 @@
       <cutBetweenHoles>false</cutBetweenHoles>
       <orientation>VERTICAL</orientation>
       <holeSpacing value="0.1" unit="in"/>
-      <point x="5.3" y="3.2"/>
+      <point x="5.2" y="3.2"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut19</name>
@@ -712,6 +712,66 @@
       <holeSpacing value="0.1" unit="in"/>
       <point x="3.7" y="3.5"/>
     </diylc.connectivity.TraceCut>
+    <diylc.connectivity.TraceCut>
+      <name>Cut40</name>
+      <size value="0.08" unit="in"/>
+      <fillColor hex="ffffff"/>
+      <borderColor hex="ff0000"/>
+      <boardColor hex="f8ebb3"/>
+      <cutBetweenHoles>false</cutBetweenHoles>
+      <orientation>VERTICAL</orientation>
+      <holeSpacing value="0.1" unit="in"/>
+      <point x="3.7" y="3.2"/>
+    </diylc.connectivity.TraceCut>
+    <diylc.connectivity.Jumper>
+      <name>J14</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="3.5" y="4.0"/>
+        <point x="3.5" y="3.5"/>
+        <point x="3.5" y="3.75"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="0000ff"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <style>SOLID</style>
+    </diylc.connectivity.Jumper>
+    <diylc.connectivity.Jumper>
+      <name>J15</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="3.2" y="3.3"/>
+        <point x="3.2" y="3.1"/>
+        <point x="3.2" y="3.2"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="0000ff"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <style>SOLID</style>
+    </diylc.connectivity.Jumper>
+    <diylc.connectivity.TraceCut>
+      <name>Cut41</name>
+      <size value="0.08" unit="in"/>
+      <fillColor hex="ffffff"/>
+      <borderColor hex="ff0000"/>
+      <boardColor hex="f8ebb3"/>
+      <cutBetweenHoles>false</cutBetweenHoles>
+      <orientation>VERTICAL</orientation>
+      <holeSpacing value="0.1" unit="in"/>
+      <point x="3.4" y="3.1"/>
+    </diylc.connectivity.TraceCut>
     <diylc.connectivity.PCBTerminalBlock>
       <name>J1</name>
       <alpha>127</alpha>
@@ -766,9 +826,9 @@
       <alpha>127</alpha>
       <length value="0.25" unit="in"/>
       <points>
-        <point x="3.4" y="3.8"/>
-        <point x="3.4" y="4.0"/>
-        <point x="3.4" y="3.9"/>
+        <point x="3.4" y="3.3"/>
+        <point x="3.4" y="3.5"/>
+        <point x="3.4" y="3.4"/>
       </points>
       <bodyColor hex="6b6dce"/>
       <borderColor hex="4a4c90"/>
@@ -1048,32 +1108,15 @@
       <value></value>
       <markerColor hex="dddddd"/>
     </diylc.semiconductors.DiodePlastic>
-    <diylc.semiconductors.TransistorTO126>
-      <name>Q2</name>
-      <alpha>100</alpha>
-      <value></value>
-      <orientation>DEFAULT</orientation>
-      <controlPoints>
-        <point x="5.7" y="3.2"/>
-        <point x="5.7" y="3.3"/>
-        <point x="5.7" y="3.4"/>
-      </controlPoints>
-      <bodyColor hex="808080"/>
-      <borderColor hex="595959"/>
-      <labelColor hex="000000"/>
-      <display>NAME</display>
-      <folded>false</folded>
-      <leadLength value="3.5" unit="mm"/>
-    </diylc.semiconductors.TransistorTO126>
     <diylc.passive.Resistor>
       <name>R2</name>
       <alpha>127</alpha>
       <length value="0.36" unit="in"/>
       <width value="0.125" unit="in"/>
       <points>
-        <point x="5.9" y="3.5"/>
-        <point x="6.0" y="3.4"/>
-        <point x="5.95" y="3.45"/>
+        <point x="5.8" y="3.6"/>
+        <point x="5.8" y="3.1"/>
+        <point x="5.8" y="3.35"/>
       </points>
       <bodyColor hex="82cffd"/>
       <borderColor hex="5b90b1"/>
@@ -1088,18 +1131,6 @@
       <colorCode>_5_BAND</colorCode>
       <shape>Tubular_Beveled</shape>
     </diylc.passive.Resistor>
-    <diylc.connectivity.PCBTerminalBlock>
-      <name>TB1</name>
-      <alpha>127</alpha>
-      <controlPoints>
-        <point x="6.6" y="3.7"/>
-        <point x="6.6" y="3.505"/>
-      </controlPoints>
-      <count>_2</count>
-      <orientation>_180</orientation>
-      <bodyColor hex="90ab66"/>
-      <borderColor hex="647747"/>
-    </diylc.connectivity.PCBTerminalBlock>
     <diylc.passive.TrimmerPotentiometer>
       <name>RV1</name>
       <alpha>127</alpha>
@@ -1115,6 +1146,134 @@
       <display>NAME</display>
       <type>FLAT_SMALL</type>
     </diylc.passive.TrimmerPotentiometer>
+    <diylc.electromechanical.PinHeader>
+      <name>PH1</name>
+      <alpha>127</alpha>
+      <orientation>DEFAULT</orientation>
+      <controlPoints>
+        <point x="6.6" y="3.6"/>
+        <point x="6.6" y="3.7"/>
+      </controlPoints>
+      <rowCount>1</rowCount>
+      <columnCount>2</columnCount>
+      <spacing value="0.1" unit="in"/>
+      <shrouded>false</shrouded>
+      <bodyColor hex="808080"/>
+      <shroudColor hex="595959"/>
+    </diylc.electromechanical.PinHeader>
+    <diylc.electromechanical.PinHeader>
+      <name>PH2</name>
+      <alpha>127</alpha>
+      <orientation>DEFAULT</orientation>
+      <controlPoints>
+        <point x="2.9" y="3.3"/>
+        <point x="2.9" y="3.4"/>
+        <point x="2.9" y="3.5"/>
+        <point x="2.9" y="3.6"/>
+      </controlPoints>
+      <rowCount>1</rowCount>
+      <columnCount>4</columnCount>
+      <spacing value="0.1" unit="in"/>
+      <shrouded>false</shrouded>
+      <bodyColor hex="808080"/>
+      <shroudColor hex="595959"/>
+    </diylc.electromechanical.PinHeader>
+    <diylc.passive.Resistor>
+      <name>R5</name>
+      <alpha>127</alpha>
+      <length value="0.36" unit="in"/>
+      <width value="0.125" unit="in"/>
+      <points>
+        <point x="3.1000000000000005" y="3.6"/>
+        <point x="3.1" y="3.1"/>
+        <point x="3.1" y="3.35"/>
+      </points>
+      <bodyColor hex="82cffd"/>
+      <borderColor hex="5b90b1"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <power>HALF</power>
+      <colorCode>_5_BAND</colorCode>
+      <shape>Tubular_Beveled</shape>
+    </diylc.passive.Resistor>
+    <diylc.shapes.Ellipse>
+      <name>ELL1</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="2.7" y="2.8"/>
+        <point x="2.8" y="2.9"/>
+      </controlPoints>
+      <firstPoint x="2.7" y="2.8"/>
+      <secondPoint x="2.8" y="2.9"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+    </diylc.shapes.Ellipse>
+    <diylc.shapes.Ellipse>
+      <name>ELL2</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="6.8" y="2.8"/>
+        <point x="6.9" y="2.9"/>
+      </controlPoints>
+      <firstPoint x="6.8" y="2.8"/>
+      <secondPoint x="6.9" y="2.9"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+    </diylc.shapes.Ellipse>
+    <diylc.shapes.Ellipse>
+      <name>ELL3</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="6.8" y="4.5"/>
+        <point x="6.9" y="4.6"/>
+      </controlPoints>
+      <firstPoint x="6.8" y="4.5"/>
+      <secondPoint x="6.9" y="4.6"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+    </diylc.shapes.Ellipse>
+    <diylc.shapes.Ellipse>
+      <name>ELL4</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="2.7" y="4.5"/>
+        <point x="2.8" y="4.6"/>
+      </controlPoints>
+      <firstPoint x="2.7" y="4.5"/>
+      <secondPoint x="2.8" y="4.6"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+    </diylc.shapes.Ellipse>
+    <diylc.semiconductors.TransistorTO92>
+      <name>Q2</name>
+      <alpha>100</alpha>
+      <value></value>
+      <orientation>_180</orientation>
+      <controlPoints>
+        <point x="5.4" y="3.3"/>
+        <point x="5.4" y="3.2"/>
+        <point x="5.4" y="3.1"/>
+      </controlPoints>
+      <bodyColor hex="808080"/>
+      <borderColor hex="595959"/>
+      <labelColor hex="000000"/>
+      <display>NAME</display>
+      <folded>false</folded>
+      <pinSpacing value="0.1" unit="in"/>
+    </diylc.semiconductors.TransistorTO92>
     <diylc.misc.WrapLabel>
       <name>L1</name>
       <controlPoints>
@@ -1157,11 +1316,11 @@
     <diylc.misc.WrapLabel>
       <name>L4</name>
       <controlPoints>
-        <point x="5.56" y="3.27"/>
-        <point x="5.56" y="3.37"/>
+        <point x="5.46" y="3.27"/>
+        <point x="5.46" y="3.37"/>
       </controlPoints>
-      <firstPoint x="5.56" y="3.27"/>
-      <secondPoint x="5.56" y="3.37"/>
+      <firstPoint x="5.46" y="3.27"/>
+      <secondPoint x="5.46" y="3.37"/>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
       <horizontalAlignment>LEFT</horizontalAlignment>
@@ -1170,11 +1329,11 @@
     <diylc.misc.WrapLabel>
       <name>L5</name>
       <controlPoints>
-        <point x="5.56" y="3.17"/>
-        <point x="5.56" y="3.27"/>
+        <point x="5.46" y="3.17"/>
+        <point x="5.46" y="3.27"/>
       </controlPoints>
-      <firstPoint x="5.56" y="3.17"/>
-      <secondPoint x="5.56" y="3.27"/>
+      <firstPoint x="5.46" y="3.17"/>
+      <secondPoint x="5.46" y="3.27"/>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
       <horizontalAlignment>LEFT</horizontalAlignment>
@@ -1183,11 +1342,11 @@
     <diylc.misc.WrapLabel>
       <name>L6</name>
       <controlPoints>
-        <point x="5.56" y="3.37"/>
-        <point x="5.56" y="3.47"/>
+        <point x="5.46" y="3.07"/>
+        <point x="5.46" y="3.17"/>
       </controlPoints>
-      <firstPoint x="5.56" y="3.37"/>
-      <secondPoint x="5.56" y="3.47"/>
+      <firstPoint x="5.46" y="3.07"/>
+      <secondPoint x="5.46" y="3.17"/>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
       <horizontalAlignment>LEFT</horizontalAlignment>
@@ -1196,28 +1355,28 @@
     <diylc.misc.WrapLabel>
       <name>L7</name>
       <controlPoints>
-        <point x="7.06" y="3.5"/>
-        <point x="7.3" y="3.6"/>
+        <point x="7.06" y="3.6"/>
+        <point x="7.7" y="3.7"/>
       </controlPoints>
-      <firstPoint x="7.06" y="3.5"/>
-      <secondPoint x="7.3" y="3.6"/>
+      <firstPoint x="7.06" y="3.6"/>
+      <secondPoint x="7.7" y="3.7"/>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
       <horizontalAlignment>LEFT</horizontalAlignment>
-      <value>LED+</value>
+      <value>LED+ (low batt)</value>
     </diylc.misc.WrapLabel>
     <diylc.misc.WrapLabel>
       <name>L8</name>
       <controlPoints>
         <point x="7.06" y="3.7"/>
-        <point x="7.3" y="3.8"/>
+        <point x="7.7" y="3.8"/>
       </controlPoints>
       <firstPoint x="7.06" y="3.7"/>
-      <secondPoint x="7.3" y="3.8"/>
+      <secondPoint x="7.7" y="3.8"/>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
       <horizontalAlignment>LEFT</horizontalAlignment>
-      <value>LED-</value>
+      <value>LED- (low batt)</value>
     </diylc.misc.WrapLabel>
     <diylc.misc.WrapLabel>
       <name>L9</name>
@@ -1248,11 +1407,11 @@
     <diylc.misc.WrapLabel>
       <name>L11</name>
       <controlPoints>
-        <point x="2.36" y="3.8"/>
-        <point x="2.5" y="3.9"/>
+        <point x="2.39" y="3.77"/>
+        <point x="2.53" y="3.87"/>
       </controlPoints>
-      <firstPoint x="2.36" y="3.8"/>
-      <secondPoint x="2.5" y="3.9"/>
+      <firstPoint x="2.39" y="3.77"/>
+      <secondPoint x="2.53" y="3.87"/>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
       <horizontalAlignment>LEFT</horizontalAlignment>
@@ -1261,15 +1420,67 @@
     <diylc.misc.WrapLabel>
       <name>L12</name>
       <controlPoints>
-        <point x="2.36" y="4.0"/>
-        <point x="2.5" y="4.1"/>
+        <point x="2.39" y="3.97"/>
+        <point x="2.53" y="4.069999999999999"/>
       </controlPoints>
-      <firstPoint x="2.36" y="4.0"/>
-      <secondPoint x="2.5" y="4.1"/>
+      <firstPoint x="2.39" y="3.97"/>
+      <secondPoint x="2.53" y="4.069999999999999"/>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
       <horizontalAlignment>LEFT</horizontalAlignment>
       <value>IN-</value>
+    </diylc.misc.WrapLabel>
+    <diylc.misc.WrapLabel>
+      <name>L13</name>
+      <controlPoints>
+        <point x="2.23" y="3.57"/>
+        <point x="2.63" y="3.67"/>
+      </controlPoints>
+      <firstPoint x="2.23" y="3.57"/>
+      <secondPoint x="2.63" y="3.67"/>
+      <font name="Dialog.plain" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <value>ON LED +</value>
+    </diylc.misc.WrapLabel>
+    <diylc.misc.WrapLabel>
+      <name>L14</name>
+      <controlPoints>
+        <point x="2.23" y="3.47"/>
+        <point x="2.63" y="3.57"/>
+      </controlPoints>
+      <firstPoint x="2.23" y="3.47"/>
+      <secondPoint x="2.63" y="3.57"/>
+      <font name="Dialog.plain" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <value>ON LED -</value>
+    </diylc.misc.WrapLabel>
+    <diylc.misc.WrapLabel>
+      <name>L15</name>
+      <controlPoints>
+        <point x="2.43" y="3.37"/>
+        <point x="2.63" y="3.47"/>
+      </controlPoints>
+      <firstPoint x="2.43" y="3.37"/>
+      <secondPoint x="2.63" y="3.47"/>
+      <font name="Dialog.plain" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <value>SW</value>
+    </diylc.misc.WrapLabel>
+    <diylc.misc.WrapLabel>
+      <name>L16</name>
+      <controlPoints>
+        <point x="2.43" y="3.27"/>
+        <point x="2.63" y="3.37"/>
+      </controlPoints>
+      <firstPoint x="2.43" y="3.27"/>
+      <secondPoint x="2.63" y="3.37"/>
+      <font name="Dialog.plain" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <value>SW</value>
     </diylc.misc.WrapLabel>
   </components>
   <groups/>
